@@ -1,0 +1,55 @@
+
+/* top-nav border-left */
+.button-navbar-icon-house::after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-left: 2px solid #e1e1e1;
+    height: 11px;
+    top: 7px;
+    right: -14px;
+}
+
+.button-navbar-icon-gmail::after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-left: 2px solid #e1e1e1;
+    height: 11px;
+    top: 7px;
+    right: -14px;
+}
+
+
+
+/* .text-line::after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-left: 1px solid #e1e1e1;
+    height: 15px;
+    top: 4px;
+    right: -28px;
+} */
+
+.navbar::before {
+    content: "";
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    left: 4px;
+    top: 32px;
+}
+
+.subnav::before {
+    content: "";
+    border: 6px solid;
+    border-color: transparent transparent #65c8c6 transparent;
+    position: absolute;
+    right: 105px;
+    top: -12px;
+}
+
+
+
+

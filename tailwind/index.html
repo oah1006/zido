@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./build/tailwind.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body class="">
+   <div class="w-full">
+        <div class="bg-[#fbfbfb]">
+            <div class="flex justify-between lg:w-[950px] lg:mx-auto lg:px-0 md:w-full md:px-[25px] w-full px-[6px] py-[10px]">
+                <div class="flex">
+                    <div class="flex items-center justify-between md:w-[80px] w-[100px] mr-[32px] ">
+                        <a class="flex items-center align-center lg:w-[14px] lg:h-[14px] md:w-[18px] md:h-[18px] w-[18px] h-[18px] cursor-pointer" href="">
+                            <img class="w-full h-full object-cover" src="../assets/img/icon_house.png" alt="">
+                        </a>
+                        <div class="h-[16px] border-r-2 border-[#e1e1e1]"></div>
+                        <a class="flex items-center align-center lg:w-[14px] lg:h-[14px] md:w-[18px] md:h-[18px] w-[18px] h-[18px] cursor-pointer" href="">
+                            <img class="w-full h-full object-cover" src="../assets/img/icon_gmail.png" alt="">
+                        </a>
+                        <div class="h-[16px] border-r-2 border-[#e1e1e1]"></div>
+                    </div>
+                    <p class="hidden md:block lg:block ml-[4px] mr-[16px] text-[#7d7d7d] font-medium">Hotline (84+) 0909 68 67 69</p>
+                    <form action="" class="relative">
+                        <input  type="text" placeholder="Tìm kiếm" class="placeholder-[#767676] font-medium rounded-l-[100px] rounded-r-[100px] bg-[#ededed] w-[124px] lg:w-[200px] pl-[34px] outline-none">
+                        <button class="w-[13px] h-[13px] absolute top-[7px] left-[12px]" type="submit">
+                            <img src="../assets/img/icon_search.png" class="w-full h-full object-cover" alt="">
+                        </button>
+                    </form>
+                </div>
+                    
+                <div class="flex align-center">
+                    <div class="mr-[14px]">
+                        <button class="w-[16px] h-[16px]">
+                            <img src="../assets/img/icon_star.png" class="w-full h-full object-cover" alt="">
+                        </button>
+                    </div>
+                    <p class="hidden md:block lg:block text-[#7d7d7d] font-medium">YÊU THÍCH (0)</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="border-t-[1px] border-solid border-[#f2f2f2]">
+            <div class="flex items-center justify-between lg:w-[950px] lg:px-0 md:w-full md:px-[25px] mx-auto pt-[20px] px-[10px]">
+                <!-- logo and button -->
+                <button show="1" class="btn-menu flex align-center justify-center lg:hidden bg-[#ededed] rounded-[4px] p-3">
+                    <i class='bx bx-menu text-[24px]'></i>
+                </button>
+
+                <div class="lg:w-[88px] lg:h-[27px]">
+                    <img src="../assets/img/logo.png" class="w-full h-full object-cover" alt="">
+                </div>
+                <!-- menu -->
+                <div class="menu hidden lg:block">
+                    <ul class="flex lg:flex-row flex-col items-center lg:space-x-[10px] md:space-x-[2px] font-medium text-[#7e7e7e]">
+                        <li class="navbar relative hover:bg-[#65c8c6] hover:rounded-[30px] hover:text-[#fff] p-[6px]">
+                            <a href="" class="text-center">Giày Thể Thao</a>
+                        </li>
+                        <li class="navbar group relative hover:bg-[#65c8c6] hover:rounded-[30px] hover:text-[#fff] p-[4px]">
+                            <a href="" class="">Giày Thời Trang</a>
+                            <ul class="subnav z-20 hidden bg-[#65c8c6] min-w-[210px] absolute group-hover:block top-[62px] left-[-35px] text-[#b5edec]">
+                                <li class="px-[20px] pb-[10px] border-b-2 border-solid border-[#75cecc] py-[20px] hover:text-[#ffffff]">Sản Phẩm Mới</li>
+                                <li class="px-[20px] pb-[10px] border-b-2 border-solid border-[#75cecc] py-[20px] hover:text-[#ffffff]">Sản Phẩm Bán Chạy</li>
+                                <li class="px-[20px] pb-[10px] border-b-2 border-solid border-[#75cecc] py-[20px] hover:text-[#ffffff]">Sản Phẩm HOT</li>
+                                <li class="px-[20px] pb-[10px] border-b-2 border-solid border-[#75cecc] py-[20px] hover:text-[#ffffff]">Nike Sport</li>
+                                <li class="px-[20px] pb-[10px] border-b-2 border-solid border-[#75cecc] py-[20px] hover:text-[#ffffff]">Adidas</li>
+                            </ul>
+                        </li>
+                        <li class="navbar relative hover:bg-[#65c8c6] hover:rounded-[30px] hover:text-[#fff] p-[6px]">
+                            <a href="">Giày Chạy Bộ</a>
+                        </li>
+                        <li class="navbar relative hover:bg-[#65c8c6] hover:rounded-[30px] hover:text-[#fff] p-[6px]">
+                            <a href="">Tin Tức</a>
+                        </li>
+                        <li class="navbar relative hover:bg-[#65c8c6] hover:rounded-[30px] hover:text-[#fff] p-[6px]">
+                            <a href="">Giới Thiệu</a>
+                        </li>
+                        <li class="navbar text-line relative hover:bg-[#65c8c6] hover:rounded-[30px] hover:text-[#fff] p-[6px]">
+                            <a href="">Liên Hệ</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- line separation -->
+                <div class="hidden lg:block h-[16px] border-r-2 border-[#e1e1e1]"></div>
+
+                <!-- cart -->
+                <div>
+                    <ul class="flex items-center space-x-4 font-medium text-[#7e7e7e]">
+                        <li class="navbar hidden lg:block relative hover:bg-[#65c8c6] hover:rounded-[30px] p-[4px]">
+                            <a href="">Giỏ Hàng</a>
+                        </li>
+                        <li class="relative">
+                            <button class="w-[30px] h-[30px]" style="background-image: url('../assets/img/icon_cart.png');"></button>
+                            <span class="absolute px-[8px] py-[0px] top-0 left-[18px] bg-[#65c8c6] text-[#fff] rounded-full">0</span>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div> 
+            
+            <div id="nav-mobile" class="hidden font-medium text-[#fff] bg-[#65c8c6] mt-[20px] rounded-[6px]">
+                <ul class="pl-[20px]">
+                    <li class="py-[10px]">
+                        <div class="flex space-x-[10px]">
+                            <a href="" class=" py-[10px]">Giày Thể Thao</a>
+                            <button show="1" class="flex items-center lg:hidden ">
+                                <i class='bx bx-chevron-down font-[20px] text-[#fff]'></i>
+                            </button>
+                        </div>
+                    </li>
+                    <li class="py-[10px]" show="1">
+                        <div class="flex space-x-[10px]">
+                            <a href="" class="">Giày Thời Trang</a>
+                            <button show="1" class="btn-subnav-mobile flex items-center lg:hidden ">
+                                <i class='bx bx-chevron-down font-[20px] text-[#fff]'></i>
+                            </button>
+                        </div>
+                        <ul class="hidden subnav-mobile px-[40px]">
+                            <li class="py-[5px]">Sản Phẩm Mới</li>
+                            <li class="py-[5px]">Sản Phẩm Bán Chạy</li>
+                            <li class="py-[5px]">Sản Phẩm HOT</li>
+                            <li class="py-[5px]">Nike Sport</li>
+                            <li class="py-[5px]">Adidas</li>
+                        </ul>
+                    </li>
+                    <li class="py-[10px]">
+                        <div class="flex space-x-[10px]">
+                            <a href="">Giày Chạy Bộ</a>
+                            <button show="1" class="flex items-center lg:hidden ">
+                                <i class='bx bx-chevron-down font-[20px] text-[#fff]'></i>
+                            </button>
+                        </div>
+                    </li>
+                    <li class="py-[10px]">
+                        <div class="flex space-x-[10px]">
+                            <a href="">Tin Tức</a>
+                            <button show="1" class="flex items-center lg:hidden ">
+                                <i class='bx bx-chevron-down font-[20px] text-[#fff]'></i>
+                            </button>
+                        </div>
+                    </li>
+                    <li class="py-[10px]">
+                        <div class="flex space-x-[10px]">
+                            <a href="">Giới Thiệu</a>
+                            <button show="1" class="flex items-center lg:hidden ">
+                                <i class='bx bx-chevron-down font-[20px] text-[#fff]'></i>
+                            </button>
+                        </div>
+                    </li>
+                    <li class="py-[10px]">
+                        <div class="flex space-x-[10px]">
+                            <a href="">Liên Hệ</a>
+                            <button show="1" class="flex items-center lg:hidden ">
+                                <i class='bx bx-chevron-down font-[20px] text-[#fff]'></i>
+                            </button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        
+        <div class="w-full lg:h-[750px] h-full mt-[28px] z-10 object-cover" style="background-image: url('../assets/img/jumbotron.png')">
+            <img src="../assets/img/jumbotron_img_item.png" alt="" class="mx-auto pt-[170px]">
+            <div class="my-[40px] flex items-center justify-center space-x-2">
+                <button class="w-[26px] h-[31px]" style="background-image: url('../assets/img/icon_arrow_right.png');"></button>
+                <button class="w-[21px] h-[21px]" style="background-image: url('../assets/img/icon_circle_1.png');"></button>
+                <button class="w-[21px] h-[21px]" style="background-image: url('../assets/img/icon_circle_3.png');"></button>
+                <button class="w-[21px] h-[21px]" style="background-image: url('../assets/img/icon_circle_1.png');"></button>
+                <button class="w-[26px] h-[31px]" style="background-image: url('../assets/img/icon_equal.png');"></button>
+            </div> 
+        </div>
+
+         <div class="mt-[78px]">
+            <div class="lg:w-[950px] grid lg:grid-cols-2 grid-rows-1 gap-x-2 mx-auto">
+                <div class="">
+                    <div class="relative">
+                        <img src="../assets/img/img_item_1.png" alt="" class="w-full h-[482px] object-cover">
+                        <div class="w-[65px] h-[45px] bg-[#65c8c6] flex items-center absolute top-[40px] left-[40px]">
+                            <p class="mx-auto font-extrabold text-[18px] text-[#fff]">30%</p>
+                        </div>
+                        <div class=" w-full flex justify-center space-x-3 absolute items-center bottom-[30px]">
+                            <div class="bg-[#65c8c6] px-[14px] py-[8px]">
+                                <button class="w-[13px] h-[13px] bg-center" style="background-image: url('../assets/img/icon_cart_2.png')"></button>
+                            </div>
+                            <div class="bg-white px-[14px] py-[8px]">
+                                <button class="w-[15px] h-[13px] bg-center" style="background-image: url('../assets/img/icon_star_1.png')"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-[25px]">   
+                        <p class="text-[#7d7d7d] font-bold text-[13px] text-center lg:text-left">NIKE SB DUNK LOW PRO "WHEAT"</p>
+                        <div class="flex space-x-[32px] mt-[15px] lg:justify-start justify-center">
+                            <p class="text-[#666666] font-extrabold line-through mr-[30px]">$150</p>
+                            <p class="text-[#65c8c6] font-extrabold">$100</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex flex-col">
+                    <div>
+                        <div class="text-center">
+                            <p class='font-bold text-[#65c8c6] text-[30px]'>SẢN PHẨM</p>
+                            <p class="font-extrabold text-[#333333] text-[42px]">NỔI BẬT</p>
+                            <p class="text-[#999999]">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Voluptatem id exercitationem quod accusamus cum mollitia dolores minima earum. 
+                                Minus mollitia aliquam cupiditate, corrupti nulla repudiandae? 
+                            </p>
+                        </div>
+
+                        <div class="text-center my-[20px]">
+                            <button class="w-[60px] h-[11px]" style="background-image: url('../assets/img/icon_arrow_left_right.png');"></button>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-2 gap-x-2">
+                        <div class="relative">
+                            <img src="../assets/img/img_item_2.png" alt="" class="w-full h-[214px] object-cover">
+                            <div class="w-[65px] h-[45px] bg-[#333333] flex items-center top-[10px] left-[10px] absolute">
+                                <p class="mx-auto font-extrabold text-[18px] text-[#fff]">10%</p>
+                            </div>
+                            <div class="mt-[25px]">   
+                                <p class="text-[#7d7d7d] font-bold text-[13px]">LERBRON XIV</p>
+                                <div class="flex space-x-[32px] mt-[15px]">
+                                    <p class="text-[#666666] font-extrabold line-through mr-[30px]">$150</p>
+                                    <p class="text-[#65c8c6] font-extrabold">$80</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="../assets/img/img_item_3.png" alt="" class="w-full h-[214px] object-cover">
+                            <div class="mt-[25px]">   
+                                <p class="text-[#7d7d7d] font-bold text-[13px]">NIKE METCON 3</p>
+                                <div class="flex space-x-[32px] mt-[15px]">
+                                    <p class="text-[#666666] font-extrabold line-through mr-[30px]">$150</p>
+                                    <p class="text-[#65c8c6] font-extrabold">$110</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lg:w-[950px] mx-auto pt-[20px] grid lg:grid-cols-2 grid-rows-1 gap-x-2">
+                <div>
+                    <img src="../assets/img/img_item_4.png" alt="" class="w-full h-[211px]">
+                </div>
+                <div class="grid grid-cols-2 gap-x-2 lg:mt-0 mt-[10px]">
+                    <div class="relative">
+                        <img src="../assets/img/img_item_layout.png" alt="" class="w-full h-[214px] object-cover">
+                        <div class=" w-full flex justify-center space-x-3 absolute items-center bottom-[106px]">
+                            <div class="bg-[#65c8c6] px-[14px] py-[8px]">
+                                <button class="w-[13px] h-[13px] bg-center" style="background-image: url('../assets/img/icon_cart_2.png')"></button>
+                            </div>
+                            <div class="bg-white px-[14px] py-[8px]">
+                                <button class="w-[15px] h-[13px] bg-center" style="background-image: url('../assets/img/icon_star_1.png')"></button>
+                            </div>
+                        </div>
+                        <div class="mt-[25px]">   
+                            <p class="text-[#7d7d7d] font-bold text-[13px]">LERBRON XIV</p>
+                            <div class="flex space-x-[32px] mt-[15px]">
+                                <p class="text-[#666666] font-extrabold line-through mr-[30px]">$150</p>
+                                <p class="text-[#65c8c6] font-extrabold">$80</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="relative">
+                        <img src="../assets/img/img_item_5.png" alt="" class="w-full h-[214px] object-cover">
+                        <div class="w-[65px] h-[45px] bg-[#333333] flex items-center absolute top-[10px] left-[10px]">
+                            <p class="mx-auto font-extrabold text-[18px] text-[#fff]">10%</p>
+                        </div>
+                        <div class="mt-[25px]">   
+                            <p class="text-[#7d7d7d] font-bold text-[13px]">NIKE METCON 3</p>
+                            <div class="flex space-x-[32px] mt-[15px]">
+                                <p class="text-[#666666] font-extrabold line-through mr-[30px]">$150</p>
+                                <p class="text-[#65c8c6] font-extrabold">$110</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+         <div class=" w-full h-[224px] mt-[62px] flex items-center bg-[#f5f5f5]">
+            <img src="../assets/img/brand_transparent.png" alt="" class="mx-auto flex-none">
+        </div>
+
+        <div class="lg:h-[583px] h-full bg-[#6fc9c7]">
+            <div class="flex lg:pl-[285px] lg:flex-row lg:space-x-[40px] flex-col justify-between items-center ">
+                <div class="flex flex-col space-y-10 py-[10px] lg:p-0">
+                    <div class="flex">
+                        <img src="../assets/img/icon_car.png" alt="" class="flex-none lg:w-[52px] lg:h-[29px] w-[32px] h-[19px] mt-[10px]">
+                        <div class="ml-[36px]">
+                            <p class="font-extrabold text-[26px] text-[#fff]">GIAO HÀNG NHANH CHÓNG</p>
+                            <p class="text-[16px] text-[#fff]">Dịch vụ giao hàng nhanh chóng trong vòng 5 tiếng</p>
+                            <p class="text-[16px] text-[#fff] leading-1">Áp dụng trên cả nước với các đơn hàng trên 500k</p>
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <img src="../assets/img/icon_house_check.png" alt="" class="flex-none lg:w-[49px] lg:h-[51px] w-[32px] h-[19px] mt-[10px]">
+                        <div class="ml-[36px]">
+                            <p class="font-extrabold text-[26px]  text-[#fff]">ĐỔI TRẢ HÀNG</p>
+                            <p class="text-[16px]  text-[#fff]">Trả hàng trong vòng 7 ngày, đổi hàng trong vòng 10 ngày</p>
+                            <p class="text-[16px] text-[#fff] leading-1">Áp dụng với các sản phẩm bảo hành trên 2 năm</p>
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <img src="../assets/img/icon_phone.png" alt="" class="flex-none lg:w-[52px] lg:h-[51px] w-[32px] h-[19px] mt-[10px]">
+                        <div class="ml-[36px]">
+                            <p class="font-extrabold text-[26px]  text-[#fff]">HỖ TRỢ 24/7</p>
+                            <p class="text-[16px]  text-[#fff]">Trung tâm hỗ trợ trực tuyến liên hệ 24/24</p>
+                            <p class="text-[16px] text-[#fff] leading-1">Mọi khiếu nại, thắc mắc xin liên hệ 0909 99 88 22</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:h-[585px] lg:w-[700px] md:w-full w-full flex flex-col items-center justify-center" style="background-image: url('../assets/img/img_item.png')">
+                    <div class="flex flex-col justify-center items-center space-y-6 p-10" style="background-image: url('../assets/img/img_shadow.png')">
+                        <img src="../assets/img/logo_2.png" alt="" class="">
+                        <div class="border-b-[1px] border-[#d3d3d3] border-solid w-[216px]"></div>
+                        <div class="text-center">
+                            <p class="text-shoes font-extrabold lg:text-[44px] text-[34px] text-[#fff]">GIÀY THỂ THAO</p>
+                            <P class="font-extrabold lg:text-[26px] text-[16px] text-[#fff]">CHÍNH HÃNG</P>
+                        </div>
+                        <button class="font-normal text-[18px] px-[28px] py-[5px] text-[#fff] bg-[#65c8c6] rounded-[30px]">ĐỌC TIẾP</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="mb-[25px]">
+            <div class="lg:w-[950px] w-full my-[30px] mx-auto px-[10px]">
+                <div class="">
+                    <img src="../assets/img/logo_1.png" alt="">
+                </div>
+                <div class="mt-[40px] grid grid-row lg:grid-cols-4 lg:gap-x-[60px] gap-y-[40px] md:grid-cols-2 ">
+                    <div>
+                        <div>
+                            <div class='flex items-center space-x-6'>
+                                <img src="../assets/img/icon_phone_1.png" alt="">
+                                <div class="">
+                                    <p class="text-[#666666] font-medium">Bạn Cần Trợ Giúp? Gọi ngay 24/7</p>
+                                    <p class="font-medium text-[#333333]">(+084) 908 99 00 77</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="my-[44px]">
+                            <p class="font-medium text-[#333333] mb-[10px]">Địa chỉ Store</p>
+                            <p class="text-[#666666]">1756 Nguyễn Thị Kỷ, Q. Tân Bình, Tp.HCM</p>
+                        </div>
+
+                        <div>
+                            <img src="../assets/img/icon_social.png" alt="">
+                        </div>
+                    </div>
+
+                    <div>
+                        <ul class="text-[#666666]">
+                            <li class="font-medium text-[#333333] mb-[20px]">Tìm Kiếm Nhanh</li>
+                            <li class="mb-[20px]">
+                                <a href="#">Sản Phẩm Bán Chạy</a>
+                            </li>
+                            <li class="mb-[20px]">
+                                <a href="#">Sản Phẩm HOT</a>
+                            </li>
+                            <li class="mb-[20px]">
+                                <a href="#">Nike Sport</a>
+                            </li>
+                            <li class="mb-[20px]">
+                                <a href="#">Adidas</a>
+                            </li>
+                            <li class="mb-[20px]">
+                                <a href="#">Puma</a>
+                            </li>
+                            <li>
+                                <a href="#">Converse</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <ul class="text-[#666666]">
+                            <li class="font-medium text-[#333333] mb-[20px]">Hỗ Trợ</li>
+                            <li class="mb-[20px]">
+                                <a href="#">Giới Thiệu</a>
+                            </li>
+                            <li class="mb-[20px]">
+                                <a href="#">Hướng Dẫn Mua Hàng</a>
+                            </li>
+                            <li class="mb-[20px]">
+                                <a href="#">Câu Hỏi Thường Gặp</a>
+                            </li>
+                            <li class="mb-[20px]">
+                                <a href="#">Tài Khoản & Mua Hàng</a>
+                            </li>
+                            <li class="mb-[20px]">
+                                <a href="#">Hỗ Trợ Mua Hàng</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <img src="../assets/img/img_facebook.png" alt="" class="w-[345px] h-[258px]">
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-[#f5f5f5] h-[50px] w-full flex items-center align-center">
+                <div class="lg:w-[950px] mx-auto">
+                    <p class="text-[#707070] font-medium">Copyright 2017 by (shopname) 
+                        <span class="font-normal">- Powered by Zido</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div> 
+
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
